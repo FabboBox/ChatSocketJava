@@ -5,7 +5,7 @@
  */
 package main;
 
-import views.MainFrame;
+import views.MainWindow;
 
 /**
  *
@@ -19,7 +19,7 @@ public class Main {
         /* Create and display the MainWindow */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MainFrame().setVisible(true);
+                new MainWindow().setVisible(true);
             }
         });
     }
